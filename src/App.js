@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Hero from './hero';
+import NavBar from './navbar';
+import cardsData from "./cardsData";
+import Card from './card'
+import './styles.css';
+
+
 
 function App() {
+
+  const renderCards = cardsData.map(card => {
+
+    return (
+      <Card
+        key={card.id}
+        card={card}
+        // aquí podria usar un spreed Operator {..card} y entonces
+        //en el componente usar porpos.title sin card en medio, todos
+        //los atributos quedan intactos
+      />
+    );
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <NavBar />
+      <Hero />
+      <div className="cards--container">
+        {renderCards}
+      </div>
+    </>
+  ); 
 }
+
 
 export default App;
