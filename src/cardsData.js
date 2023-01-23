@@ -44,7 +44,7 @@ export default [
     openSpots: 3,
   },
   {
-    id: 3,
+    id: 4,
     title: "Group Mountain Biking",
     description:
       "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
@@ -58,7 +58,7 @@ export default [
     openSpots: 0,
   },
   {
-    id: 3,
+    id: 5,
     title: "Group Mountain Biking",
     description:
       "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
@@ -72,7 +72,7 @@ export default [
     openSpots: 3,
   },
   {
-    id: 3,
+    id: 6,
     title: "Group Mountain Biking",
     description:
       "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
@@ -86,7 +86,7 @@ export default [
     openSpots: 3,
   },
   {
-    id: 3,
+    id: 7,
     title: "Group Mountain Biking",
     description:
       "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",

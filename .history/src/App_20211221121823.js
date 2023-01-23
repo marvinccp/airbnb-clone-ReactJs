@@ -13,7 +13,7 @@ function App() {
         key={card.id}
         card={card}
         // aquí podria usar un spreed Operator {..card} y entonces
-        //en el componente usar props.title sin card en medio, todos
+        //en el componente usar porpos.title sin card en medio, todos
         //los atributos quedan intactos
       />
     );
@@ -31,4 +31,4 @@ function App() {
 }
 
 
-export default App;
+export default App;f
